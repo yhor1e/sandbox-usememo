@@ -10,7 +10,6 @@ const App = (props) => {
   const memorizedValue2 = useMemo(() => {
     console.log('function2 called');
     return 'counter.value (dep counter.dummy): ' + counter.value;
-    debugger;
   }, [counter.dummy]);
 
   let prevCbValue;

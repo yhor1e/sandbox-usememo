@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "360400f2b8098db0ac93";
+/******/ 	var hotCurrentHash = "d10547ec1502d3f3fbbe";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -29415,7 +29415,6 @@ var App = function App(props) {
   var memorizedValue2 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(function () {
     console.log('function2 called');
     return 'counter.value (dep counter.dummy): ' + counter.value;
-    debugger;
   }, [counter.dummy]);
   var prevCbValue;
   var prevCbDummy;
