@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <p>console.log</p>
+    <pre style="font-family: 'Courier New', Courier, monospace;">
+App.js
+-------- clicked --------
+counter.value (dep counter.value): 0
+counter.value (dep counter.dummy): 0
+function1 called
+function2 called
+-------- clicked --------
+counter.value (dep counter.value): 1
+counter.value (dep counter.dummy): 1
+function1 called
+-------- clicked --------
+counter.value (dep counter.value): 2
+counter.value (dep counter.dummy): 1
+function1 called
+-------- clicked --------
+counter.value (dep counter.value): 3
+counter.value (dep counter.dummy): 1
+function1 called
+function2 called
+-------- clicked --------
+counter.value (dep counter.value): 4
+counter.value (dep counter.dummy): 4
+function1 called
+-------- clicked --------
+counter.value (dep counter.value): 5
+counter.value (dep counter.dummy): 4
+function1 called
+    </pre>
+
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>
